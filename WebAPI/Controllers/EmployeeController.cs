@@ -8,6 +8,7 @@
     public class EmployeeController : ApiController
     {
         EntityModel context = new EntityModel();
+
         public HttpResponseMessage Get()
         {
             return Request.CreateResponse(HttpStatusCode.OK, context.Employees);
