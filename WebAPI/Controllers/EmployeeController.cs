@@ -7,6 +7,7 @@
     using System.Web.Http;
     public class EmployeeController : ApiController
     {
+        //comments by bhaskar
         EntityModel context = new EntityModel();
 
         public HttpResponseMessage Get()
